@@ -1,0 +1,14 @@
+# Ядро Битрикс и кеш
+/bitrix/
+!/bitrix/php_interface/
+!/bitrix/templates/
+/upload/
+/local/modules/bitrix.*
+*.log
+*.bak
+
+# Файлы настроек и кеш
+.settings.php
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
